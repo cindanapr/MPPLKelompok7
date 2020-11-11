@@ -9,7 +9,11 @@ class _AuthenticateState extends State<Authenticate> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('authenticate'),
+      child: Scaffold(
+        body: Center(
+          child: Text('Authenticate'),
+          ) 
+      ),
     );
   }
 }
