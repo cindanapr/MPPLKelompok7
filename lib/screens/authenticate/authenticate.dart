@@ -8,12 +8,18 @@ class Authenticate extends StatefulWidget {
 class _AuthenticateState extends State<Authenticate> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Scaffold(
-        body: Center(
-          child: Text('Authenticate'),
-          ) 
-      ),
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: RadialGradient(
+            colors: [
+              Color(0x8FEEBF),
+              Color(0x17B7BD),
+            ]
+          )
+        ),
+        child: Text('authenticate'),
+      )
     );
   }
 }
