@@ -11,14 +11,44 @@ class _AuthenticateState extends State<Authenticate> {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-          gradient: RadialGradient(
+          gradient: LinearGradient(
             colors: [
-              Color(0x8FEEBF),
-              Color(0x17B7BD),
-            ]
+            Colors.green[100],
+            Colors.teal[200],
+            ],
+            begin: Alignment.bottomLeft,
+            end: Alignment.topRight,
           )
         ),
-        child: Text('authenticate'),
+        child: Column( mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Curhat.in',
+              style: TextStyle(
+                fontSize: 53.0,
+                color: Colors.white,
+                fontFamily: 'AdreenaScripts',
+              ),
+            ),
+            RaisedButton(
+            elevation: 5.0,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
+            highlightElevation: 20.0,
+            color: Colors.green[300],
+            padding: EdgeInsets.symmetric(horizontal:140.0),
+            child: Container(
+              child: Text('Sign In',
+                            style: TextStyle(
+                              fontSize: 13.0,
+                              color: Colors.white
+                            )
+                          )
+            ),
+            highlightColor: Colors.green[200],
+            onPressed: (){},
+            )
+          ]
+        )
       )
     );
   }

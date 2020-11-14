@@ -4,7 +4,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0x17B7BD00),
+      backgroundColor: Colors.teal,
       body: Center(
         child: Text( 'Mau curhat ke siapa kak?',
           style : TextStyle (
