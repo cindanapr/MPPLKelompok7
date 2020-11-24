@@ -10,6 +10,7 @@ class _AuthenticateState extends State<Authenticate> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        width: double.infinity,
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
@@ -30,6 +31,25 @@ class _AuthenticateState extends State<Authenticate> {
                 fontFamily: 'AdreenaScripts',
               ),
             ),
+            Text(
+              'Aplikasi Konsultasi Online Berbasis',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 17.0,
+                color: Colors.white,
+                fontFamily: 'Lato',
+              ),
+            ),
+            Text(
+              'Android untuk Mahasiswa IPB',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 17.0,
+                color: Colors.white,
+                fontFamily: 'Lato',
+              ),
+            ),
+            Image(image: AssetImage('assets/landingpage.png')),
             RaisedButton(
             elevation: 5.0,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
@@ -38,6 +58,23 @@ class _AuthenticateState extends State<Authenticate> {
             padding: EdgeInsets.symmetric(horizontal:140.0),
             child: Container(
               child: Text('Sign In',
+                            style: TextStyle(
+                              fontSize: 13.0,
+                              color: Colors.white
+                            )
+                          )
+            ),
+            highlightColor: Colors.green[200],
+            onPressed: (){},
+            ),
+            RaisedButton(
+            elevation: 5.0,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(50.0)),
+            highlightElevation: 20.0,
+            color: Colors.green[300],
+            padding: EdgeInsets.symmetric(horizontal:140.0),
+            child: Container(
+              child: Text('Sign Up',
                             style: TextStyle(
                               fontSize: 13.0,
                               color: Colors.white
