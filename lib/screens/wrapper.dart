@@ -5,6 +5,7 @@ import 'package:mppl/screens/authenticate/sign_in.dart';
 import 'package:mppl/screens/authenticate/sign_up.dart';
 import 'package:provider/provider.dart';
 import 'package:mppl/models/user.dart';
+import 'package:mppl/screens/home/nav.dart';
 
 class Wrapper extends StatelessWidget {
   @override
@@ -14,6 +15,6 @@ class Wrapper extends StatelessWidget {
     print(user);
 
     // return either Home or Authenticate widget
-    return Home();
+    return Nav();
   }
 }
