@@ -10,14 +10,15 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor : Color(0xffEEEEEE),
       body: Container(
-        margin: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(20.0),
         height: size.height,
         width: double.infinity,
         child: 
-        Stack(
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Positioned(
-              top: 40,
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 16.0),
               child: 
                 Text( 'Psikoinfo',
                   style : TextStyle (
@@ -28,10 +29,10 @@ class Home extends StatelessWidget {
                   )
                 ),
             ),
-            const SizedBox(height: 16.0),
-            Positioned(
-              top: 100,
-                child: Card(
+            
+            Container( 
+                  child:
+                Card(
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
@@ -41,16 +42,17 @@ class Home extends StatelessWidget {
                       height: 200.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0),
+                          //topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0),
                           ),
                         image: DecorationImage(
-                          image: AssetImage('assets/download.png'),
+                          image: AssetImage('assets/landingpage.png'),
                           fit: BoxFit.cover,
                           )
                       ),
                     ),
-                    Padding(
+                    Container(
                       padding: const EdgeInsets.all(16.0),
+                      child: Expanded(
                       child: Text("Penyebab Depresi pada Mahasiswa",
                       style: TextStyle(
                         color: Colors.black87,
@@ -58,11 +60,13 @@ class Home extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       )
                       ),
+                      )
                     )
                   ],
                 ),
               ),
-            )
+              )
+            
           ] 
         ) 
       )

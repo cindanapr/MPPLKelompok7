@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mppl/screens/authenticate/sign_in.dart';
+import 'package:mppl/screens/authenticate/sign_up.dart';
 
 class Authenticate extends StatefulWidget {
   @override
@@ -83,7 +85,7 @@ class _AuthenticateState extends State<Authenticate> {
                               )
                 ),
                 highlightColor: Colors.green[200],
-                onPressed: (){},
+                onPressed: toSignIn,
                 ),
               ),
             ),
@@ -107,7 +109,7 @@ class _AuthenticateState extends State<Authenticate> {
                               )
                 ),
                 highlightColor: Colors.green[200],
-                onPressed: (){},
+                onPressed: toSignUp,
                 ),
               ),
             )
@@ -115,5 +117,13 @@ class _AuthenticateState extends State<Authenticate> {
         )
       )
     );
+  }
+  void toSignIn() {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => SignIn()));
+  }
+  void toSignUp() {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => SignUp()));
   }
 }

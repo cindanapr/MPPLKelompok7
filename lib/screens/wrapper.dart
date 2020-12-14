@@ -3,6 +3,7 @@ import 'package:mppl/screens/home/home.dart';
 import 'package:mppl/screens/authenticate/authenticate.dart';
 import 'package:mppl/screens/authenticate/sign_in.dart';
 import 'package:mppl/screens/authenticate/sign_up.dart';
+import 'package:mppl/screens/home/profile.dart';
 import 'package:provider/provider.dart';
 import 'package:mppl/models/user.dart';
 import 'package:mppl/screens/home/nav.dart';
@@ -15,6 +16,10 @@ class Wrapper extends StatelessWidget {
     print(user);
 
     // return either Home or Authenticate widget
-    return Nav();
+    if (user == null){
+      return Nav();
+    } else {
+      return Nav();
+    }
   }
 }
