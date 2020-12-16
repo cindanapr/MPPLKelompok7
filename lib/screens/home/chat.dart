@@ -33,7 +33,7 @@ class _ChatState extends State<Chat> {
                   shape: BoxShape.circle,
                   image: DecorationImage(
                       image: NetworkImage(
-                          "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"),
+                          "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"),
                       fit: BoxFit.cover)),
             ),
             SizedBox(
@@ -43,7 +43,7 @@ class _ChatState extends State<Chat> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Tyler Nix",
+                  "Sara Safeerina",
                   style: TextStyle(
                       fontSize: 18, fontWeight: FontWeight.bold, color: black),
                 ),
@@ -59,19 +59,6 @@ class _ChatState extends State<Chat> {
           ],
         ),
         actions: <Widget>[
-          Icon(
-            Icons.phone,
-            color: primary,
-            size: 32,
-          ),
-          SizedBox(
-            width: 15,
-          ),
-          Icon(
-            Icons.camera,
-            color: primary,
-            size: 35,
-          ),
           SizedBox(
             width: 8,
           ),
@@ -113,8 +100,8 @@ class _ChatState extends State<Chat> {
               Icon(Icons.camera_alt,size: 35,color: primary,),
               SizedBox(width: 15,),
               Icon(Icons.photo,size: 35,color: primary,),
-              SizedBox(width: 15,),
-              Icon(Icons.keyboard_voice,size: 35,color: primary,),
+              
+              
                 ],
               ),
             ),
@@ -123,7 +110,7 @@ class _ChatState extends State<Chat> {
               child: Row(
               children: <Widget>[
                 Container(
-                  width: (MediaQuery.of(context).size.width-140)/2,
+                  width: (MediaQuery.of(context).size.width-50)/2,
                   height: 40,
                   decoration: BoxDecoration(
                     color: grey,
@@ -142,8 +129,7 @@ class _ChatState extends State<Chat> {
                     ),
                   ),
                 ),
-                SizedBox(width: 15,),
-                Icon(Icons.thumb_up,size: 35,color: primary,),
+                
               ],
             ),
             ),

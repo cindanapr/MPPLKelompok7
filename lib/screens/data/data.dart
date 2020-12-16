@@ -3,37 +3,37 @@ List userMessages = [
   {
     "id" : 1,
     "name" : "Sara Safeerina",
-    "img" : "https://images.unsplash.com/photo-1571741140674-8949ca7df2a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "img" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80",
     "online" : true,
     "story" : true,
-     "message" : "Apa kabar?",
+     "message" : "Apa kabar kamu hari ini?",
      "created_at" : "1:00 pm"
   },
   {
     "id" : 2,
     "name" : "Aulia Maurina",
-    "img" : "https://images.unsplash.com/photo-1467272046618-f2d1703715b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    "img" : "https://images.unsplash.com/photo-1550546094-9835463f9f71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
     "online" : false,
     "story" : false,
-    "message" : "Long time no see!!",
+    "message" : "Selamat pagi:)",
     "created_at" : "12:00 am"
   },
   {
     "id" : 3,
     "name" : "Dinda Gracia",
-    "img" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80",
+    "img" : "https://images.unsplash.com/photo-1531399434264-f1ba6b24b3dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1047&q=80",
     "online" : false,
     "story" : true,
-    "message": "Glad to know you in person!",
+    "message": "Alhamdulillah kalau kamu sehat",
     "created_at" : "3:30 pm"
   },
   {
     "id" : 4,
     "name" : "Qiqi Fitri Sulaiha",
-    "img" : "https://images.unsplash.com/photo-1536763843054-126cc2d9d3b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "img" : "https://images.unsplash.com/photo-1548343874-ea7b35b1fd4a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1791&q=80",
     "online" : false,
     "story" : false,
-    "message": "I'm doing fine and how about you?",
+    "message": "Yuk cari kegiatan di rumah:)",
     "created_at" : "9:00 am"
   },
   {
@@ -42,7 +42,7 @@ List userMessages = [
     "img" : "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
     "online" : true,
     "story" : false,
-     "message": "What is your real name?",
+     "message": "Mood nya baik kok",
      "created_at" : "11:25 am"
   },
   {
@@ -51,7 +51,7 @@ List userMessages = [
     "img" : "https://images.unsplash.com/photo-1523264939339-c89f9dadde2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
     "online" : true,
     "story" : true,
-    "message": "I'm happy to be your friend",
+    "message": "Seneng banget aku bisa bantu",
     "created_at" : "10:00 am"
   },
   {
@@ -60,7 +60,7 @@ List userMessages = [
     "img" : "https://images.unsplash.com/photo-1458696352784-ffe1f47c2edc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80",
     "online" : false,
     "story" : false,
-    "message": "Thanks for your help.",
+    "message": "Makasih banyak yaa",
     "created_at" : "2:34 pm"
   },
   {
@@ -69,7 +69,7 @@ List userMessages = [
     "img" : "https://images.unsplash.com/photo-1519531591569-b84b8174b508?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "online" : false,
     "story" : true,
-    "message": "I just arrived home.",
+    "message": "Baru aja bangun nih",
     "created_at" : "1:12 am"
   }
 ];
@@ -79,79 +79,79 @@ List messages = [
       {
         "isMe" : true,
         "messageType" : 1,
-        "message" : "Ubuntu jng hery",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Kemarin mood aku kurang stabil gitu",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : true,
         "messageType" : 2,
-        "message" : "Need to use code to command",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Baru bangun rasanya mau nangis",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : true,
         "messageType" : 3,
-        "message" : "Tov work tor hery",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Tapi ga berapa lama seneengg banget gatau kenapa",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : false,
         "messageType" : 1,
-        "message" : "me hate you",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Wah",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : false,
         "messageType" : 2,
-        "message" : "bah",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Emang mood bangun tidur tuh ga selalu baik wkwk",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : false,
         "messageType" : 3,
-        "message" : "-_-",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Senang nya habis ngapain?",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : true,
         "messageType" : 1,
-        "message" : "Som muk",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Tadi bantuin mama masak",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : true,
         "messageType" : 3,
-        "message" : "Ory Reang",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Terus gatau kenapa seneng bangett",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : false,
         "messageType" : 1,
-        "message" : "Eng use ah laptop nus ubuntu",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Nah berati kamu udah buat mamah senang itu",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : false,
         "messageType" : 2,
-        "message" : "code teat ban jenh",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Kebahagiaan kamu muncul dari orang lain",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : false,
         "messageType" : 3,
-        "message" : "use laptop neng lerk na kor code",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "yuk perbanyak aktivitas sosial:D",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : true,
         "messageType" : 4,
-        "message" : "Oh hahahah good",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Wah iya bener juga kak",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       },
       {
         "isMe" : false,
         "messageType" : 4,
-        "message" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-        "profileImg" : "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3319&q=80"
+        "message" : "Kamu coba perbanyak aktivitas sama orang lain, kalau pandemi gini paling sama keluarga deh, bisa sama mama, papa, kakak, adik. Kalau bisa jangan sendirian yah!:D, pertahanin mood senang kamu hehehe",
+        "profileImg" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80"
       }
     ];
