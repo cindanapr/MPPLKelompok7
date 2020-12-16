@@ -11,7 +11,7 @@ class _ArticleState extends State<Article> {
     return Scaffold(
       backgroundColor: Color(0xFFf1f2f6),
       body: Container(
-        margin: EdgeInsets.all(30.0),
+        margin: EdgeInsets.all(10.0),
         child:SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -79,7 +79,7 @@ class _ArticleState extends State<Article> {
                       child: Text(
                         'Penyebab Depresi Pada Mahasiswa',
                         style: TextStyle(
-                            fontSize: 34,
+                            fontSize: 24,
                             fontWeight: FontWeight.bold,
                             fontFamily: 'Lato',
                             color: Colors.black,
@@ -88,19 +88,25 @@ class _ArticleState extends State<Article> {
                     ),
                     ListTile(
                       leading: CircleAvatar(
-                        backgroundImage: AssetImage('assets/user.png'),
+                        backgroundImage: AssetImage('assets/avatar.png'),
                       ),
                       title: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
-                          Text('Hossin El ghazli',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 17),),
-                          Text('31m ago',style: TextStyle(fontSize: 12,color: Colors.grey,fontWeight: FontWeight.bold)),
+                          Text('Abina Mahardika',style: TextStyle(color: Colors.teal[300], fontWeight: FontWeight.bold, fontFamily: 'Lato', fontSize: 17),),
+                          Text('31m ago',style: TextStyle(fontSize: 12,color: Colors.grey, fontFamily: 'Lato', fontWeight: FontWeight.bold)),
                         ],
                       ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(12),
-                      child: Text('sdfsdfsdfsdfsdfsf sdfsfsdfsdfsdfsdfsdf sfdsfdsfsdfdsfss  sfdsfdsfsdfsfdsdfsdfsdfsdfsdfsf sdfsfsdfsdfsdfsdfsdf sfdsfdsfsdfdsfss  sfdsfdsfsdfsfd',style: TextStyle(fontWeight: FontWeight.bold),),
+                      child: Text('Depresi pada mahasiswa menjadi masalah kesehatan mental yang tidak dapat dianggap sepele. Kondisi ini dapat terjadi karena stres yang bertumpuk sehingga seseorang tidak stabil secara emosional. Maka dari itu, tekanan untuk belajar dapat memancing keinginan untuk bunuh diri.',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 0.2,
+                        fontFamily: 'Lato',
+                        )
+                      ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(12),
