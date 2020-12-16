@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:mppl/screens/authenticate/authenticate.dart';
 import 'package:mppl/screens/home/nav.dart';
 import 'package:mppl/services/auth.dart';
 import 'package:mppl/services/auth.dart';
@@ -96,7 +95,6 @@ class Profile extends StatelessWidget {
                 highlightColor: Colors.green[200],
                 onPressed: () async {
                   await _auth.signOut();
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => Authenticate()));
                 },
               ),
             ),

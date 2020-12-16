@@ -6,7 +6,7 @@ List userMessages = [
     "img" : "https://images.unsplash.com/photo-1561442748-c50715dc32f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1901&q=80",
     "online" : true,
     "story" : true,
-     "message" : "Kamu coba perbanyak aktivitas sama orang lain,",
+     "message" : "Apa kabar kamu hari ini?",
      "created_at" : "1:00 pm"
   },
   {
