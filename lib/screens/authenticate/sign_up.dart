@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mppl/services/auth.dart';
 import 'package:mppl/screens/authenticate/sign_in.dart';
+import 'package:mppl/screens/home/nav.dart';
 
 class SignUp extends StatefulWidget {
   @override
@@ -177,6 +178,8 @@ class _SignUpState extends State<SignUp> {
                       dynamic result = await _auth.register(email, password);
                       if(result == null){
                         setState(() => error = 'please input a valid email');
+                      } else {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => Nav()));
                       }
                     }
                   },

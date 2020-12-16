@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mppl/services/auth.dart';
 import 'package:mppl/screens/authenticate/sign_up.dart';
+import 'package:mppl/screens/home/nav.dart';
 
 class SignIn extends StatefulWidget {
   @override
@@ -173,6 +174,8 @@ class _SignInState extends State<SignIn> {
                       dynamic result = await _auth.signIn(email, password);
                       if(result == null){
                         setState(() => error = 'Could not sign in with those credentials');
+                      } else {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => Nav()));
                       }
                     }
                   },
