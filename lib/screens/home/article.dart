@@ -70,7 +70,7 @@ class _ArticleState extends State<Article> {
                   children: <Widget>[
                     
                     Image.asset(
-                      'assets/depresi.png',
+                      'assets/deppresi.png',
                       fit: BoxFit.cover,
                     ),
                     Padding(

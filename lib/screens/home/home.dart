@@ -53,7 +53,7 @@ class Home extends StatelessWidget {
                             //topLeft: Radius.circular(10.0), topRight: Radius.circular(10.0),
                             ),
                           image: DecorationImage(
-                            image: AssetImage('assets/landingpage.png'),
+                            image: AssetImage('assets/deppresi.png'),
                             fit: BoxFit.cover,
                             )
                         ),
@@ -75,10 +75,16 @@ class Home extends StatelessWidget {
               ),
                 ),
               )
-            
           ] 
         ) 
-      )
+      ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.teal[300],
+        child: Icon(Icons.add),
+        onPressed: (){
+
+        },
+      ),
     );
   }
 }
