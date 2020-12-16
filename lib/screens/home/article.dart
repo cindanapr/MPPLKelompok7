@@ -10,7 +10,9 @@ class _ArticleState extends State<Article> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFf1f2f6),
-      body: SingleChildScrollView(
+      body: Container(
+        margin: EdgeInsets.all(30.0),
+        child:SingleChildScrollView(
         child: Column(
           children: <Widget>[
             SizedBox(
@@ -30,14 +32,14 @@ class _ArticleState extends State<Article> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          'Top Stories',
+                          'Article',
                           style: TextStyle(
-                              fontSize: 35,
+                              fontSize: 34,
                               fontWeight: FontWeight.bold,
-                              color: Colors.black.withOpacity(.8)),
+                              color: Colors.teal[300]),
                         ),
                         Text(
-                          'monday,june 8',
+                          'Thursday, Dec 17',
                           style: TextStyle(color: Colors.grey, fontSize: 17),
                         ),
                       ],
@@ -48,7 +50,6 @@ class _ArticleState extends State<Article> {
                           width: 50,
                           height: 50,
                         ),
-                       
                       ],
                     )
                   ],
@@ -67,19 +68,22 @@ class _ArticleState extends State<Article> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
+                    
                     Image.asset(
-                      'assets/nature.jpg',
+                      'assets/depresi.png',
                       fit: BoxFit.cover,
                     ),
                     Padding(
                       padding:
                           const EdgeInsets.only(left: 12, top: 24, bottom: 13),
                       child: Text(
-                        'Top Stories Top StoriesTop StoriesTop Stories',
+                        'Penyebab Depresi Pada Mahasiswa',
                         style: TextStyle(
-                            fontSize: 35,
+                            fontSize: 34,
                             fontWeight: FontWeight.bold,
-                            color: Colors.black.withOpacity(.8)),
+                            fontFamily: 'Lato',
+                            color: Colors.black,
+                        )
                       ),
                     ),
                     ListTile(
@@ -126,7 +130,7 @@ class _ArticleState extends State<Article> {
           ],
         ),
       ),
-      
+    ),
     );
   }
 }
